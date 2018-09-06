@@ -18,8 +18,8 @@ import styles from "./styles";
 import { AsyncStorage } from "react-native";
 
 var CryptoJS = require("crypto-js");
-var walletUtil = require("../../Util/wallet");
-var storageUtil = require("../../Util/storage");
+var walletUtil = require("../../util/wallet");
+var storageUtil = require("../../util/storage");
 
 export default class PinPage extends Component {
   // 从ImportWallet传进参数：wallet

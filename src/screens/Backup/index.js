@@ -20,8 +20,8 @@ import styles from "./styles";
 
 var ethers = require("ethers");
 var CryptoJS = require("crypto-js");
-var walletUtil = require("../../Util/wallet");
-var storageUtil = require("../../Util/storage");
+var walletUtil = require("../../util/wallet");
+var storageUtil = require("../../util/storage");
 
 
 Array.prototype.remove = function(val) {

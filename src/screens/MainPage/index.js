@@ -6,7 +6,7 @@ import { Container, Button, H3, Text } from "native-base";
 import styles from "./styles";
 
 import { AsyncStorage } from "react-native";
-import util from "../../Util/util.js";
+import util from "../../util/util.js";
 
 const launchscreenBg = require("../../../assets/launchscreen-bg.png");
 const launchscreenLogo = require("../../../assets/logo-kitchen-sink.png");

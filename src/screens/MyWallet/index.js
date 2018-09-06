@@ -18,8 +18,8 @@ import styles from "./styles";
 var CryptoJS = require("crypto-js");
 var ethers = require("ethers");
 
-var walletUtil = require("../../Util/wallet");
-var storageUtil = require("../../Util/storage");
+var walletUtil = require("../../util/wallet");
+var storageUtil = require("../../util/storage");
 
 export default class MyWallet extends Component {
   // 从NewWallet或MyWallet传进参数：wallet，pin
